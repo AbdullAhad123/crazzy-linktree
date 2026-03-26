@@ -23,6 +23,9 @@ html {
 body {
     min-height: 100dvh;
     max-height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: url('../img/texture_bg.png') repeat center fixed, linear-gradient(to top left, black, #1a1a1a) !important;
 }
 
